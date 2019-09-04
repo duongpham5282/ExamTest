@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "lib": ["es2017", "esnext.asynciterable"],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
+      "sourceMap": false,
+      "rootDir": "src",
+      "outDir": "dist",
+    },
+    "include": [
+      "src/**/*.ts",
+      "index.ts"
+
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
